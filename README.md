@@ -1,4 +1,5 @@
 # Twitter Sentiment Analysis
+NLP Sentiment Analysis on tweets using a Bayesian Network implemented from scratch without any library.
 
 ## Introduction
 ### Naive Bayes assumption of Independence
