@@ -19,7 +19,7 @@ Finally, we will also need to examine and implement some smoothing method to avo
 ## Proposal
 The proposal is incremental, meaning that we will first start with a basic bayesian network and then we will be adding more features and capabilities to our model.
 
-### 1. Basic Bayesian Network
+### Basic Bayesian Network
 To implement a first Bayesian network, I followed the steps below:
 -  **Feature engineering**: In this step we will read the data, do a quick analysis to detect anomalies and divide it into train and test sets.
 -  **Train the model**: In this section we will generate a dictionary with the words that we find in the training set. We will get rid of meaningless words with the help of stopwords.
