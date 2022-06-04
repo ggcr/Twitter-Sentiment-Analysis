@@ -64,7 +64,7 @@ dict_words = {“<word>”: [negative_count, positive_count]}
 
 We will use this dictionary of counts to create the dictionary where we will calculate the probabilities of each word in the dictionary. We will save it in a dictionary called prob_cond.
 
-![alt text](https://github.com/ggcr/Twitter-Sentiment-Analysis/blob/maiN/imgs/probs_formula.png)
+![alt text](https://github.com/ggcr/Twitter-Sentiment-Analysis/blob/main/imgs/probs_formula.png)
 
 ##### Stopwords
 The NLTK library's stopwords feature has been used to detect words that have no meaning such as pronouns or prepositions.
