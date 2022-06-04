@@ -85,7 +85,7 @@ In this section, we will ignore words that do not appear in the training diction
 
 #### Metrics
 Given  `True Positive (TP)`, `True Negative (TN)`, `False Positive (FP)` and `False Negative (FN)` we can define some metrics as so:
-```
+```python
 Accuracy = (TP + TN) / (TP + TN + FP + FN)
 Precision = TP / (TP + FP)
 Recall = TP / (TP + FN)
