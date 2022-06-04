@@ -176,13 +176,13 @@ words have been viewed with standard frequency.
   ```
   ![alt text](https://github.com/ggcr/Twitter-Sentiment-Analysis/blob/main/imgs/prob_laplace_add1.png)
 
-- `smoothing=“laplace_smoothing”``
+- `smoothing=“laplace_smoothing”`
   
   Apply the Laplace Smoothing technique with the alpha parameter, as explained in
 class.
   We will calculate the probabilities with the following formula:
   
-  ![alt text](https://github.com/ggcr/Twitter-Sentiment-Analysis/blob/main/public/imgs/prob_laplace_smooth.png)
+  ![alt text](https://github.com/ggcr/Twitter-Sentiment-Analysis/blob/main/imgs/prob_laplace_smooth.png)
   
   Alpha multiplies the possible outcomes of the target variable (2).
   
@@ -215,6 +215,7 @@ sizes_train = [0.1, 0.2, 0.4, 0.6, 0.8]
 ```
 
 We get the following results:
+
 ![alt text](https://github.com/ggcr/Twitter-Sentiment-Analysis/blob/main/imgs/res1.png)
 
 We can see that as long as the dictionary is at least 1% it will give good results. From there it will decrease the accuracy so a good dictionary size range would be between 1% - 10%.
